@@ -670,7 +670,7 @@ xterm
     在Fedora 14中，只有/etc/X11/xinit/xinitrc文件，由它来运行Xclients脚本，这个脚本用于运行各个指定的X client，其中的第一个X client即为gnome-session，这就是GNOME桌面环境。从代码可知，xinitrc的功能与Xsession几乎一样，只有一些细微的差别（在Ubuntu中xinitrc是直接调用Xsession的）。
 
      完整的Linux init程序启动过程如下图：
-
+     [!image](http://hi.csdn.net/attachment/201201/2/0_1325519173X0xm.gif)
 
 
 图1 Linux init程序启动过程
